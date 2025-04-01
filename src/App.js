@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import './App.css';
 
 
+
 function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -243,7 +244,7 @@ function App() {
             { href: "https://github.com/ManuS21", icon: "fab fa-github", label: "GitHub" },
             { href: "https://linkedin.com/in/manu-shukla-4a9707271", icon: "fab fa-linkedin", label: "LinkedIn" },
             { href: "mailto:mshukla@uoregon.edu", icon: "fas fa-envelope", label: "Email" },
-            { href: "/resume.pdf", icon: "fas fa-file-alt", label: "Resume" } // Added resume button with document icon
+            { href: `${process.env.PUBLIC_URL}/Resume.pdf`, icon: "fas fa-file-alt", label: "Resume" }
           ].map((social, index) => (
             <motion.a 
               key={index}
@@ -279,12 +280,12 @@ function App() {
           variants={staggerContainer}
         >
           <motion.div className="about-photo" variants={slideInRight}>
-            <motion.img 
-              src="/manu-photo.jpg" 
-              alt="Manu Shukla" 
-              whileHover={{ scale: 1.03 }}
-              transition={{ duration: 0.3 }}
-            />
+        <motion.img 
+            src={`${process.env.PUBLIC_URL}/manu-photo.jpg`} 
+            alt="Manu Shukla" 
+            whileHover={{ scale: 1.03 }}
+            transition={{ duration: 0.3 }}
+          />
           </motion.div>
           <motion.div className="about-text" variants={slideInLeft}>
             <p>I'm a Computer Science student at the University of Oregon with a minor in Mathematics, graduating in June 2025. My passion lies in developing innovative software solutions and working with cutting-edge technologies.</p>

@@ -67,12 +67,12 @@ header {
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 2rem;                  /* slightly larger text */
   font-weight: 700;
   color: var(--text-primary);
   background-color: var(--accent-color);
-  width: 42px;
-  height: 42px;
+  width: 60px;                      /* increase width */
+  height: 60px;                     /* increase height */
   border-radius: 50%;
   display: flex;
   align-items: center;
