@@ -244,7 +244,7 @@ function App() {
             { href: "https://github.com/ManuS21", icon: "fab fa-github", label: "GitHub" },
             { href: "https://linkedin.com/in/manu-shukla-4a9707271", icon: "fab fa-linkedin", label: "LinkedIn" },
             { href: "mailto:mshukla@uoregon.edu", icon: "fas fa-envelope", label: "Email" },
-            { href: `${process.env.PUBLIC_URL}/Resume.pdf`, icon: "fas fa-file-alt", label: "Resume" }
+            { href: `${process.env.PUBLIC_URL}/Resume2025.pdf`, icon: "fas fa-file-alt", label: "Resume" }
           ].map((social, index) => (
             <motion.a 
               key={index}
