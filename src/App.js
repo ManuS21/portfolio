@@ -474,7 +474,20 @@ function App() {
                   "Recognized, the system estimates portion sizes within a ±10% margin and calculates calories along with key macronutrients (protein, carbohydrates, and fats) to within ±5% deviation, referencing a 25,000-item nutritional database grounded in USDA standards",
                   "Analyzed meals are automatically logged and stored, enabling users to review past entries, monitor daily nutrient intake, and set personalized goals—turning real-time nutritional insights into actionable habits for better health"
                 ]
-            }
+            },
+            {
+                title: "Portfolio",
+                date: "March 2025 - Current",
+                role: "Full Stack Developer",
+                tech: ["Node.JS", "GH-Pages", "React","Framer Motion"],
+                link: "https://github.com/ManuS21/portfolio",
+                details: [
+                  "Developed a dynamic, responsive portfolio website using React, Framer Motion, and Vanta.js to deliver an engaging, animated user experience",
+	                "Designed a modern, dark-themed UI with custom CSS and a mobile-first layout, featuring smooth scroll navigation and a fixed header",
+	                "Implemented interactive animations and intuitive UI elements that enhance usability across desktop and mobile devices",
+	                "Streamlined deployment with GitHub Pages and automated build scripts, ensuring efficient continuous integration and delivery"
+                ]
+              }
             
           ].map((project, index) => (
             <motion.div 
