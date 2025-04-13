@@ -210,7 +210,7 @@ function App() {
           animate="visible"
           variants={staggerContainer}
         >
-          <motion.h1 variants={fadeIn}>Isaac Smells so so bad man</motion.h1>
+          <motion.h1 variants={fadeIn}>Manu Shukla</motion.h1>
           <motion.h2 variants={fadeIn}>Computer Science </motion.h2>
           <motion.p variants={fadeIn}>Building innovative solutions and experiences with code.</motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
