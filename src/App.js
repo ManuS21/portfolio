@@ -331,7 +331,7 @@ function App() {
             },
             {
               date: "June 2023 - September 2023",
-              title: "Software Engineer Intern",
+              title: "Master Data Management Intern",
               company: "GEODIS • Brentwood, TN",
               details: [
                 "Engineered SQL queries, reducing database execution time by 35%, improving operational efficiency",
