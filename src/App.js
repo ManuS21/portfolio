@@ -210,7 +210,7 @@ function App() {
           animate="visible"
           variants={staggerContainer}
         >
-          <motion.h1 variants={fadeIn}>Manu Shukla</motion.h1>
+          <motion.h1 variants={fadeIn}> Manu Shukla </motion.h1>
           <motion.h2 variants={fadeIn}>Computer Science </motion.h2>
           <motion.p variants={fadeIn}>Building innovative solutions and experiences with code.</motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
@@ -245,7 +245,7 @@ function App() {
             { href: "https://linkedin.com/in/manu-shukla-4a9707271", icon: "fab fa-linkedin", label: "LinkedIn" },
             { href: "mailto:mshukla@uoregon.edu", icon: "fas fa-envelope", label: "Email" },
             { href: `${process.env.PUBLIC_URL}/Resume-Manu.pdf`, icon: "fas fa-file-alt", label: "Resume" }
-          ].map((social, index) => (
+          ].map((social, index) => ( 
             <motion.a 
               key={index}
               href={social.href} 
@@ -331,7 +331,7 @@ function App() {
             },
             {
               date: "June 2023 - September 2023",
-              title: "Master Data Management Intern",
+              title: "Software Engineer Intern",
               company: "GEODIS • Brentwood, TN",
               details: [
                 "Engineered SQL queries, reducing database execution time by 35%, improving operational efficiency",
